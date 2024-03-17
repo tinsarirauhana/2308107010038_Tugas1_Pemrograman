@@ -226,7 +226,7 @@ diharapkan dan memberikan output yang sesuai berdasarkan apakah tahun yang
 dimasukkan adalah tahun kabisat atau tidak. 
 
     if (scanf("%4d%c", &tahun, &c) != 2 || c != '\n') {
-        printf("Format tahun yang Anda masukkan tidak sesuai.        Silahkan coba lagi dengan memasukkan hanya 4 digit angka.\n");
+        printf("Format tahun yang Anda masukkan tidak sesuai. Silahkan coba lagi dengan memasukkan hanya 4 digit angka.\n");
         return 1; 
         }
 
