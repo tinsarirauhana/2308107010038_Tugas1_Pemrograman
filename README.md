@@ -86,10 +86,9 @@ int main (){
     return 0;
 }
 
-Program di atas akan mengkonversi bilangan desimal, biner, dan octal. Program ini meminta input bilangan dari pengguna untuk menghasilkan
-output konversi bilangan desimal, biner, dan octal.
+Program di atas akan mengkonversi bilangan desimal, biner, dan octal. Program ini meminta input bilangan dari pengguna untuk menghasilkan output konversi bilangan desimal, biner, dan octal.
 
-printf ("Opsi : \n");
+    printf ("Opsi : \n");
     printf ("1. Mengubah bilangan Desimal ke Biner\n");
     printf ("2. Mengubah bilangan Biner ke Desimal\n");
     printf ("3. Mengubah bilangan Desimal ke Octal\n");
@@ -120,11 +119,7 @@ switch (pilihan){
             printf("\n");
             break;
 
-Jika pilihan pengguna adalah 1, program akan meminta pengguna untuk memasukkan angka desimal yang akan diubah ke biner. Program kemudian 
-mengubah angka tersebut menggunakan proses konversi biner dan mencetak output ke layar. If memastikan angka yang dimasukkan pengguna adalah 0. 
-Jika iya, akan mencetak 0 dan menjalankan langkah berikutnya. If-else menunjukkan bahwa jika angka bukan 0, langkah-langkah di dalam else 
-akan dijalankan. While akan dijalankan jika nilai angka lebih besar dari 0.Modulo 2 akan menjadi digit biner, dan dikalikan dengan a. /= 2 mengurangi nilai angka menjadi setengahnya, a *=10 menggeser digit 
-biner yang akan dibuat ke kiri diaklikan dengan 10. Jika break dijalankan, program akan keluar dari struktur switch-case.
+Jika pilihan pengguna adalah 1, program akan meminta pengguna untuk memasukkan angka desimal yang akan diubah ke biner. Program kemudian mengubah angka tersebut menggunakan proses konversi biner dan mencetak output ke layar. If memastikan angka yang dimasukkan pengguna adalah 0. Jika iya, akan mencetak 0 dan menjalankan langkah berikutnya. If-else menunjukkan bahwa jika angka bukan 0, langkah-langkah di dalam else akan dijalankan. While akan dijalankan jika nilai angka lebih besar dari 0.Modulo 2 akan menjadi digit biner, dan dikalikan dengan a. /= 2 mengurangi nilai angka menjadi setengahnya, a *=10 menggeser digit biner yang akan dibuat ke kiri diaklikan dengan 10. Jika break dijalankan, program akan keluar dari struktur switch-case.
 
         case 2:
         printf ("Masukkan Angka Biner : ");
@@ -143,8 +138,7 @@ Jika pilihan pengguna adalah 2, program akan meminta pengguna untuk memasukkan a
 Program kemudian mengonversi bilangan biner menjadi desimal. Program kemudian menggunakan loop while untuk mengonversi bilangan 
 biner menjadi desimal, desimal awal akan diatur ke 0. Loop berjalan selama angka lebih dari 0. Setiap iterasi dari loop, digit terakhir 
 dari modulo 10 dikalikan dengan a kemudian hasilnya ditambahkan ke desimal.Kemudian, angka dibagi 10 untuk membuang digit terakhirnya. 
-Nilai a diperbarui dengan mengalikan dengan 2. Setelah loop selesai, nilai desimal yang dihitung akan dicetak ke layar. Pernyataan break 
-digunakan untuk keluar dari switch-case.
+Nilai a diperbarui dengan mengalikan dengan 2. Setelah loop selesai, nilai desimal yang dihitung akan dicetak ke layar. Pernyataan break digunakan untuk keluar dari switch-case.
 
         case 3:
         printf ("Masukkan Angka Desimal : ");
