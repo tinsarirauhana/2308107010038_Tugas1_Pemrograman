@@ -184,7 +184,7 @@ berjalan selama angka (bilangan oktal) lebih dari 0.Tiap iterasi, digit akhir ha
 desimal. Angka dibagi 10 untuk membuang digit terakhirnya.Nilai a diperbarui dengan mengalikannya dengan 8. Jika loop selesai, nilai 
 desimal dicetak ke layar. Break untuk keluar dari switch-case
 
-default:
+    default:
       printf("Opsi yang Anda masukkan tidak tepat\n");
       printf("Silahkan coba lagi!\n");
 
