@@ -194,9 +194,9 @@ tidak tepat.
 Tugas 1 Pemrograman : 2. Program yang dapat mengecek apakah tahun yang 
 diinput oleh user berupa tahun kabisat atau bukan.
 
-#include <stdio.h>
+    #include <stdio.h>
 
-int main() {
+    int main() {
     int tahun;
     char c;
 
