@@ -99,7 +99,7 @@ Program di atas akan mengkonversi bilangan desimal, biner, dan octal. Program in
 Bagian di atas mencetak opsi pilihan ke layar menggunakan printf(), kemudian program meminta pengguna untuk memasukkan pilihan mereka 
 menggunakan scanf() dan menyimpannya dalam variabel 'pilihan'.
 
-switch (pilihan){
+    switch (pilihan){
         case 1:
         printf ("Masukkan Angka Desimal : ");
         scanf("%d", &angka);
