@@ -231,8 +231,8 @@ Program di atas memastikan bahwa input pengguna sesuai dengan format yang
 diharapkan dan memberikan output yang sesuai berdasarkan apakah tahun yang 
 dimasukkan adalah tahun kabisat atau tidak. 
 
-if (scanf("%4d%c", &tahun, &c) != 2 || c != '\n') {
-        printf("Format tahun yang Anda masukkan tidak sesuai. Silahkan coba lagi dengan memasukkan hanya 4 digit angka.\n");
+    if (scanf("%4d%c", &tahun, &c) != 2 || c != '\n') {
+        printf("Format tahun yang Anda masukkan tidak sesuai.        Silahkan coba lagi dengan memasukkan hanya 4 digit angka.\n");
         return 1; 
         }
 
@@ -243,7 +243,7 @@ terpenuhi, program mencetak pesan kesalahan yang menunjukkan bahwa format tahun 
 kode kesalahan (1), yang menandakan bahwa program telah berakhir karena terjadi kesalahan. Ini akan menghentikan program agar 
 tidak melanjutkan eksekusi dan memberi tahu pengguna tentang kesalahan yang terjadi dalam format inputan mereka.
 
- if (tahun < 1000 || tahun > 9999) {
+     if (tahun < 1000 || tahun > 9999) {
         printf("Format tahun yang Anda masukkan tidak sesuai. Silahkan coba lagi dengan menggunakan hanya 4 digit angka.\n");
         return 1; 
     }
@@ -254,7 +254,7 @@ akan mencetak pesan kesalahan yang menunjukkan bahwa format tahun yang dimasukka
 yang menandakan bahwa program telah berakhir karena terjadi kesalahan dan akan menghentikan program agar tidak melanjutkan eksekusi 
 dan memberi tahu pengguna tentang kesalahan yang terjadi dalam format input mereka.
 
- if ((tahun % 4 == 0 && tahun % 100 != 0) || (tahun % 400 == 0)) {
+     if ((tahun % 4 == 0 && tahun % 100 != 0) || (tahun % 400 == 0)) {
         printf("Tahun %d adalah tahun kabisat.\n", tahun);
     } else {
         printf("Tahun %d bukan tahun kabisat.\n", tahun);
