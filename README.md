@@ -234,6 +234,7 @@ dimasukkan adalah tahun kabisat atau tidak.
 if (scanf("%4d%c", &tahun, &c) != 2 || c != '\n') {
         printf("Format tahun yang Anda masukkan tidak sesuai. Silahkan coba lagi dengan memasukkan hanya 4 digit angka.\n");
         return 1; 
+        }
 
 scanf dengan format string "%4d%c" digunaka agar program membaca input pengguna. %4d mengharuskan input untuk terdiri dari tepat 
 4 digit angka, sedangkan %c membaca karakter newline. != 2 || c != '\n' adalah bagian dari kondisi if. Jika scanf mengembalikan 
